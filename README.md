@@ -51,6 +51,7 @@ Je hebt nog genoeg budget voor toegang tot het casino.
 De laatste regel, die zegt of je budget toereikend is of niet, wordt dynamisch bepaald op dezelfde manier als de "begroeting".
 
 ## Randvoorwaarden
+- De code voor deze applicatie staat geschreven in `main.py`.
 - De applicatie bevat ten minste 4 variabelen die je van de gebruiker opvraagt.
 - De applicatie bevat ten minste 3 constanten met een float waarde (euro).
 - Je gebruikt de genderwaarde om programmatisch de aanspreekvorm te kiezen, bijvoorbeeld `meneer {name}` of `mevrouw {name}`. Je mag hier ook een non-binaire optie toevoegen.
@@ -61,7 +62,7 @@ De laatste regel, die zegt of je budget toereikend is of niet, wordt dynamisch b
 
 Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo goed weet waar je moet beginnen, kun je onderstaand stappenplan gebruiken:
 
-1. Begin met het thema Casino de Gouden Driehoek.
+1. Begin met het thema Casino de Gouden Driehoek door een `main.py` bestand aan te maken waarin je jouw eerste python code gaat schrijven.
 2. Vraag met `input()` de naam, geboortedatum en gender van de speler op. Maak voor elk van deze datastukken een variabele met een passende, engelse naam. Let er op dat je tussen de haakjes van de input een goede prompt invult, zodat de gebruiker weet wat er gevraagd wordt. Voor `birthdate` geef je bijvoorbeeld een prompt als `input("Wat is je geboortedatum? (dd-mm-yyyy) ")`
 3. Doe hetzelfde voor het startbudget van de speler en zet deze om naar een getal met de `float()` functie.
 4. Gebruik de genderwaarde in een conditioneel statement (if/else) om een aanspreekvorm te kiezen, bijvoorbeeld `meneer {naam}` als het gender `m` is of `mevrouw {naam}` als het gender `v` is. Sla de gekozen aanspreekvorm op in een variabele.
